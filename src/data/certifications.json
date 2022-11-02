@@ -1,0 +1,35 @@
+{
+  "certified_cloud_practitioner" : {
+    "title": "Certified Cloud Practitioner",
+    "length": 5400,
+    "format": 65,
+    "active": true,
+    "href": "#cloud-practitioner",
+    "description": [
+      "AWS Certified Cloud Practitioner is intended for anyone who has basic knowledge of the AWS platform,",
+      "it provides a fundamental understanding of AWS Cloud concepts, services, and terminology."
+    ],
+    "links": [
+      "https://aws.amazon.com/certification/certified-cloud-practitioner/"    ],
+    "file": "ccp.json",
+    "img": "ccp.png"
+  },
+  "certified_developer_associate": {
+    "title": "Certified Developer - Associate",
+    "length": 7800,
+    "format": 65,
+    "active": false,
+    "href": "#developer-associate",
+    "description": [
+      "AWS Certified Developer - Associate showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS.",
+      "Preparing for and attaining this certification gives certified individuals more confidence and credibility.",
+      "Organizations with AWS Certified developers have the assurance of having the right talent to give them a competitive advantage and ensure stakeholder and customer satisfaction."
+    ],
+    "links": [
+      "https://aws.amazon.com/certification/certified-developer-associate/",
+      "https://aws.amazon.com/certification"
+    ],
+    "file": "cda.json",
+    "img": "cda.png"
+  }
+}

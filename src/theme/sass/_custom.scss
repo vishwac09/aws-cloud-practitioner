@@ -1,0 +1,27 @@
+@import "./variables_override";
+@import "~bootstrap/scss/bootstrap";
+@import "./variables";
+
+.app-background {
+  background-color: $app-background;
+  .two-col.row {
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+.app-col-1 {
+  background-color: $sidebar-background;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+  .sidebar-nav {
+    margin-top: 10%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  
+}
