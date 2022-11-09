@@ -45,10 +45,10 @@
     <a href="#machine-learning"><ins>Machine Learning</ins></a>
   </li>
   <li>
-    <a href="#"><ins>AWS Architecting & Ecosystem (T.B.C)</ins></a>
+    <a href="#other-services"><ins>Other Services</ins></a>
   </li>
   <li>
-    <a href="#"><ins>Other Service (T.B.C)</ins></a>
+    <a href="#"><ins>AWS Architecting & Ecosystem (T.B.C)</ins></a>
   </li>
   <li>
     <a href="#"><ins>Security & Compliance (T.B.C)</ins></a>
@@ -1233,3 +1233,68 @@
 </ol>
 
 ---
+
+<h2>Other Services</h2>
+
+<ol>
+  <li>
+    <strong>Workspaces</strong>:  Amazon WorkSpaces is a fully managed desktop virtualization service for Windows and Linux that allows you to access resources from any supported device.  <a href="https://aws.amazon.com/workspaces/main/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>AppStream 2.0</strong>: Amazon AppStream 2.0 is a fully managed, secure application streaming service which allows streaming desktop applications. User can stream any application they want to work on device of their choice.<a href="https://docs.aws.amazon.com/appstream2/index.html"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Amazon sumerian</strong>: Used to create 3D models, VR (virtual reality) or AR (augmented reality) applications.<a href="https://docs.aws.amazon.com/appstream2/index.html"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Sumerian</strong>: Used to create 3D models, VR (virtual reality) or AR (augmented reality) applications.<a href="https://aws.amazon.com/sumerian/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>IoT Core</strong>: Connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure. <a href="https://aws.amazon.com/iot-core/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Elastic Transcoder</strong>: Media Transcoding service, convert your source video file into multiple formats. Source video is an S3 Bucket -> Transcoder -> S3 Bucket. <a href="https://aws.amazon.com/elastictranscoder/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>AppSync</strong>: AppSync creates serverless GraphQL and Pub/Sub APIs to make application development easier by providing a single endpoint for securely querying, updating, and publishing data. <a href="https://aws.amazon.com/appsync/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Amplify</strong>: Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed.  <a href="https://aws.amazon.com/amplify/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Device Farm</strong>: Testing service that lets you improve the quality of your web and mobile apps by testing them across an extensive range of desktop browsers and real mobile devices. <a href="https://aws.amazon.com/device-farm/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>AWS Backup</strong>: Manage and automate backups across all AWS services. Take on-demand backups, supports Point-in-Time recovery, cross region backups, cross account backups etc <a href="https://aws.amazon.com/backup/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Disaster Recovery</strong>: Types of Strategies
+    <ul>
+      <li><ins>Backup and Restore</ins>: Backup data from Storage S3/EBS in case of failure.</li>
+      <li><ins>Pilot Light</ins>: Have few (core) services in the cloud, to failover in case of disaster.</li>
+      <li><ins>Warm standby</ins>: Have a minimum but full version of the application in the cloud.</li>
+      <li><ins>Multi-Site/Hot Site</ins>: Have full version of the application in the cloud to switch in case of failover.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Elastic Disaster Recovery</strong>:  AWS Elastic Disaster Recovery (AWS DRS) minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery. <a href="https://aws.amazon.com/disaster-recovery/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>DataSync</strong>: AWS DataSync moves large amounts of data online between on-premises storage and Amazon S3, Amazon Elastic File System (Amazon Elastic File System) or Amazon FSx. Manual tasks related to data transfers can slow down migrations and burden IT operations. <a href="https://aws.amazon.com/datasync/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Fault Injection Simulator</strong>: AWS Fault Injection Simulator (FIS) is a fully managed service for running fault injection experiments to improve an application’s performance, observability, and resiliency. FIS simplifies the process of setting up and running controlled fault injection experiments across a range of AWS services, so teams can build confidence in their application behavior.<a href="https://aws.amazon.com/fis/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Step Functions</strong>: AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
+  </li>
+  <li>
+    <strong>Ground Station</strong>: Control sattelite data, control communications, process data nd scale the sattelite operations.
+  </li>
+  <li>
+    <strong>Pinpoint</strong>: Amazon Pinpoint offers marketers and developers one customizable tool to deliver customer communications across channels, segments, and campaigns at scale. <a href="https://aws.amazon.com/pinpoint/"><sub>info</sub></a>
+  </li>
+  <li>
+    <strong>Application Migration Service</strong>: T.B.C
+  </li>
+</ol>
